@@ -7,6 +7,6 @@ The sniplayer folder contains the Contiki code for the sniplayer, which is one o
 
 The sniplayer code is intended for the TI Launchpad CC2650 platform. You should add the path for the contiki folder in the Makefile before flashing the mote.
 
-The wormhole end-points can be connected using a cable connection or a remote one.
+The wormhole end-points can be connected using a cable connection (by the mean of the snip_usb_part1.py and snip_usb_part2.py scripts) or a remote one (using sniplayer_client.py and sniplayer_server.py scripts).
 
 The scripts ctrl0 and ctrl1 can be used for turning ON/OFF the sniplayer Radio, which is ON by default. As an example, they can be invoked in a bash script, to schedule the wormhole.
