@@ -1,5 +1,5 @@
 # wormhole
-A mono-directional wormhole implementation.
+A mono-directional wormhole implementation for Contiki.
 
 The sniffer folder contains the Contiki code for the sniffer part. It turns a mote into a Sniffer, which sends all the incoming frames over the serial port where the mote is connected. 
 
