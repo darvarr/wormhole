@@ -1,7 +1,7 @@
 # wormhole
 A wormhole implementation for Contiki.
 
-The sniplayer code is the capability of a sniffer and a replayer. 
+The sniplayer code is combination of the capability of a sniffer and a replayer. 
 
 The sniplayer folder contains the Contiki code for the sniplayer, which is one of the end-points of the wormhole. It turns the mote into a Sniplayer. The sniffer functionality makes it capable of send, using the serial port, each frame received from the mote. The replayer functionality makes it capable of replay all the frames coming from the serial port where the mote is connected. When flashed, the sniplayer is always in promiscuous mode. The sniplayer is also able to ACK each frame coming from a specific set of victims. The MAC address of the victims can be specified in the null_sniplayRDC.c file. A special macro to enable the ACK functionality, NULLSNIPLAYRDC_CONF_FORGE_802154_ACK, is present in the project-conf, and is enabled by default.
 
