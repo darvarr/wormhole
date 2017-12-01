@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""ctrl0.py: It sends the command to turn off the Radio to the replayer serial port.
+"""ctrl0.py: It sends the command to turn off the Radio to the sniplayer serial port.
 """
 
 import serial
