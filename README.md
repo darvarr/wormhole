@@ -1,5 +1,5 @@
 # wormhole
-A wormhole implementation for Contiki.
+A wormhole attack implementation for Contiki.
 
 The sniplayer code is a combination of the capability of a sniffer and a replayer. 
 
